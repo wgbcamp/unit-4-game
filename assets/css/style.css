@@ -105,6 +105,7 @@ overflow: hidden;
     clear: left;
     height: 100px;
     width: 20%;
+    min-width: 300px;
     margin-top: 15px;
     border-radius: 10px;
     font-size: 48px;
