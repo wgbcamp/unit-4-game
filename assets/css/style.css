@@ -9,7 +9,7 @@ body{
    width: 100px;
    height: 100px;
    background: white;
- 
+   border-radius: 10px;
 }
 
 #innerDiv{
@@ -18,5 +18,88 @@ body{
     transform: translate(-50%, -50%);
     background: gold;
     padding: 2rem;
+    font-size:20px;
+    border-radius: 10px;
+}
+
+#instructionsOuter{
+    width: 50%;
+    line-height: 150%;
+    background-color:  tomato;
+    color: turquoise;
+    border-radius: 10px;
+}
+
+#instructionsInner{
+    padding:15px;
+}
+
+#randomNumber{
+    background: #3bd485;
+    height: 100px;
+    width: 20%;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 10px;
+    font-size: 72px;
+    font-weight: bold;
+    color: purple;
+}
+
+#winLossOuter{
+    background: turquoise;
+    height: 100px;
+    width: 10%;
+    margin-top: 15px;
+    float:left;
+    font-size: 30px;
+    line-height: 150%;
+    border-radius: 10px;
+}
+
+#gem1{
+    clear: left;   
+}
+
+#gem1, #gem2, #gem3, #gem4{
+background: white;
+height:100px;
+width: 10%;
+float: left;
+margin-right: 30px;
+margin-top: 15px;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+#scoreHeader{
+    position: relative;
+    background: darkcyan;
+    color:white;
+    clear:left;
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    
+}
+
+#scoreText{
+    position: absolute;
+    font-size: 25px;
+    top: 50%; left: 0%;
+    transform: translate(10%, -50%);
+
+}
+
+#scoreValue{
+    background-color: darkcyan;
+    clear: left;
+    height: 100px;
+    width: 20%;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 48px;
+    color: white;
 }
 

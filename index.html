@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>CrystalsCollector Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body style="background-image: url('assets/images/kale-salad.jpg');">
@@ -15,6 +17,44 @@
 <div id="innerDiv">CrystalsCollector!</div>
 </div>
 
+<div id="instructionsOuter">
+    <div id="instructionsInner">
+    You will be given a random number at the start of the game.
+    <br>
+    <br>
+    There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+    <br>
+    <br>
+    You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+    <br>
+    <br>
+    The value of each crystal is hidden from you until you click on it.
+    <br>
+    <br>
+    Each time when the game starts, the game will change the values of each crystal.
+    <br>
+    <br>
+    </div>
+</div>
+
+
+<div id="randomNumber"></div>
+<div id="winLossOuter">
+    <div id="winCount">Wins: 0</div>
+    <div id="lossCount">Losses: 0</div>
+</div>
+
+
+<div id="gem1" class="gems"></div>
+<div id="gem2" class="gems"></div>
+<div id="gem3" class="gems"></div>
+<div id="gem4" class="gems"></div>
+
+
+<div id="scoreHeader">
+<div id="scoreText">Your total score is: </div>
+</div>
+<div id="scoreValue"></div>
 <script src="assets/javascript/game.js"></script>
 </body>
 
