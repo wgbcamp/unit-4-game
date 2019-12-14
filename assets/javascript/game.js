@@ -16,7 +16,7 @@ function pickNumber(){
 
 //refreshes number array and assigns random numbers to 4 variables, removes selected numbers from array to prevent repeated values assigned to buttons
 function assignValues(){
-    numberArray = [1,2,3,5,10];
+    numberArray = [1,2,3,5,10,12];
 
     var remover = Math.floor(Math.random() * numberArray.length);
     a = numberArray[remover];

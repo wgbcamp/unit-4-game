@@ -24,14 +24,15 @@ body{
 
 #instructionsOuter{
     width: 50%;
-    line-height: 150%;
+    line-height: 180%;
     background-color:  tomato;
-    color: turquoise;
+    color: white;
     border-radius: 10px;
 }
 
 #instructionsInner{
     padding:15px;
+    font-size: 28px;
 }
 
 #randomNumber{
