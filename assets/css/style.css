@@ -6,6 +6,7 @@ body{
 
 #outerDiv{
    position: relative;
+   left: 90px;
    width: 100px;
    height: 100px;
    background: white;
@@ -18,7 +19,7 @@ body{
     transform: translate(-50%, -50%);
     background: gold;
     padding: 2rem;
-    font-size:20px;
+    font-size:30px;
     border-radius: 10px;
 }
 
@@ -50,13 +51,18 @@ body{
 
 #winLossOuter{
     background: turquoise;
-    height: 100px;
-    width: 10%;
+    height: auto;
+    min-width: 120px; width: 10%;
     margin-top: 15px;
     float:left;
     font-size: 30px;
     line-height: 150%;
     border-radius: 10px;
+}
+
+.gems{
+    height: 110px;
+    width: 150px;
 }
 
 #gem1{
@@ -65,8 +71,6 @@ body{
 
 #gem1, #gem2, #gem3, #gem4{
 background: white;
-height:100px;
-width: 10%;
 float: left;
 margin-right: 30px;
 margin-top: 15px;
@@ -83,6 +87,8 @@ overflow: hidden;
     height: 40px;
     width: 20%;
     border-radius: 10px;
+    width: 20%;
+    min-width: 300px;
     
 }
 
